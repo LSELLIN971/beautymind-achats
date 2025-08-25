@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Liste des Achats - BEAUTY MIND</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Beauty Mind" class="logo" />
+    <h1>Liste des Achats - BEAUTY MIND</h1>
+  </header>
+
+  <main class="container">
+    <section class="form-section">
+      <h2>Ajouter un produit</h2>
+      <form id="shopping-form">
+        <label>Nom du produit
+          <input type="text" id="product-name" required />
+        </label>
+        <label>Quantité
+          <input type="number" id="quantity" min="1" required />
+        </label>
+        <label>Ajouté par
+          <input type="text" id="added-by" required />
+        </label>
+        <button type="submit">Ajouter</button>
+      </form>
+    </section>
+
+    <section class="list-section">
+      <h2>Produits à commander</h2>
+      <table id="shopping-list">
+        <thead>
+          <tr><th>Produit</th><th>Quantité</th><th>Ajouté par</th><th>Date</th><th>Action</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
