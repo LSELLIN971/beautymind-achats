@@ -1,0 +1,13 @@
+{
+  "name": "beautymind-achats",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@netlify/blobs": "^6.0.0"
+  },
+  "scripts": {
+    "build": "echo \"static site - nothing to build\""
+  }
+}
